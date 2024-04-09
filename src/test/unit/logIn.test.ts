@@ -31,7 +31,7 @@ jest.mock('@hashgraph/sdk', () => {
       setMirrorNetwork: jest.fn().mockReturnThis(),
       setOperator: jest.fn(),
     },
-    AccountId: jest.fn().mockReturnThis()
+    AccountId: jest.fn().mockReturnThis(),
   };
 });
 
